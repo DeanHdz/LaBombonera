@@ -1,0 +1,85 @@
+navbar{
+    background-color: #B60D14;
+}
+
+footer{
+    background-color: #B60D14;
+}
+
+#sub-footer{
+    background-color: #871414;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-image: url("../../resources/images/bg.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #5B0017;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav{
+    width: 100%;
+    top: 0;
+    background-color: #B60D14;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+}
+
+div#nav-links{
+}
+
+div#nav-logo-background{
+    background-color: #CFB111;
+    max-height: 125px;
+    max-width: 125px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+img#nav-logo{
+    max-height: 125px;
+    max-width: 125px;
+}
+
+#map-container {
+    width: 50%;
+    height: 50%;
+}
+#map {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    position: static;
+    bottom: 100%;
+    background-color: #CFB111;
+    flex: flex;
+    flex-direction: column;
+}
+*/
