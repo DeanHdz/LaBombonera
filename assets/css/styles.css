@@ -1,5 +1,15 @@
+/*body and font*/
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+body{
+    background-image: url("../../resources/images/bg.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Color pallet */
 .primary{
     background-color: #B60D14;
 }
@@ -12,85 +22,34 @@
     background-color: #871414;  
 }
 
-body{
-    background-image: url("../../resources/images/bg.jpg");
-    background-repeat: repeat;
-    background-position: center;
-    background-size: contain;
-    font-family: 'Lato', sans-serif;
+.primary-border{
+    border: 3px solid;
+    border-color: #B60D14;
 }
 
+.primary-dark-border{
+    border: 3px solid;
+    border-color: #871414;
+}
+
+.primary-light-border{
+    border: 3px solid;
+    border-color: #D60000;
+}
+
+.secondary{
+    background-color: #CFB111;
+}
+
+/* individual styles */
 div#nav-logo-background-outer{
-    background-color: #1E1E1E;
-    height: 18vh;
-    width: 18vh;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
-div#nav-logo-background-inner{
-    background-color: #CFB111;
-    height: 17vh;
-    width: 17vh;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 img#nav-logo{
-    max-height: 16vh;
-    max-width: 16vh;
+    max-height: 125px;
+    max-width: 125px;
 }
-
-button#btn-evento{
-    border-radius: 15px;
-    font-weight: bold;
-    background-color: #CFB111;
-    border-color: #1E1E1E;
-}
-
-/*
-body{
-    height: 100%;
-    background-image: url("../../resources/images/bg.jpg");
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center center;
-    background-color: #5B0017;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-    overflow: hidden;
-}
-
-nav{
-    width: 100%;
-    top: 0;
-    background-color: #B60D14;
-    color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: row;
-}
-
-#map-container {
-    width: 50%;
-    height: 50%;
-}
-#map {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-*/
