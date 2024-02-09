@@ -21,8 +21,8 @@
     <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
     <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
         aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
-            <div class="modal-content primary text-white">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+            <div class="modal-content bg-pri text-white">
                 <div class="modal-header">
                     <h1 class="modal-title" id="modalTitleId">
                         Contacto
@@ -96,21 +96,21 @@
 
         <div class="bg-pri row pt-1 pb-1">
 
-            <div class="col d-flex align-items-center justify-content-center">
+            <div class="col-5 d-flex align-items-center justify-content-center">
                 <a href="#">MENÚ</a>
                 <a href="#">DIRECCIÓN</a>
                 <a href="#">SOBRE NOSOTROS</a>
             </div>
 
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="position-absolute bg-dark rounded-circle p-1" id="nav-logo-background-outer">
+            <div class="col-2 d-flex align-items-center justify-content-center">
+                <div class="position-absolute bg-dark rounded-circle p-1">
                     <div class="bg-sec rounded-circle">
                         <img id="nav-logo" src="resources/images/Logo.png" alt="Logo La Bombonera">
                     </div>
                 </div>
             </div>
 
-            <div class="col d-flex align-items-center justify-content-center">
+            <div class="col-5 d-flex align-items-center justify-content-center">
                 <a href="#">PAQUETES PARA EVENTOS</a>
                 <!-- Modal trigger button -->
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modalId"

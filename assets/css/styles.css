@@ -47,10 +47,6 @@ body{
 }
 
 /* individual styles */
-div#nav-logo-background-outer{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
-}
-
 img#nav-logo{
     max-height: 125px;
     max-width: 125px;
