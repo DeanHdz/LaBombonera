@@ -96,10 +96,10 @@
 
         <div class="bg-pri row pt-1 pb-1">
 
-            <div class="col-5 d-flex align-items-center justify-content-center">
-                <a href="#">MENÚ</a>
-                <a href="#">DIRECCIÓN</a>
-                <a href="#">SOBRE NOSOTROS</a>
+            <div class="col-5 d-flex align-items-center justify-content-around">
+                <a class="nav-link active text-white" href="#menu">MENÚ</a>
+                <a class="nav-link active text-white" href="#direccion">DIRECCIÓN</a>
+                <a class="nav-link active text-white" href="#somos">SOBRE NOSOTROS</a>
             </div>
 
             <div class="col-2 d-flex align-items-center justify-content-center">
@@ -110,8 +110,8 @@
                 </div>
             </div>
 
-            <div class="col-5 d-flex align-items-center justify-content-center">
-                <a href="#">PAQUETES PARA EVENTOS</a>
+            <div class="col-5 d-flex align-items-center justify-content-around">
+                <a class="nav-link active text-white" href="#paquetes">PAQUETES PARA EVENTOS</a>
                 <!-- Modal trigger button -->
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modalId"
                     class="btn bg-sec border-dark rounded-pill fw-bold" data-toggle="modal"
@@ -124,8 +124,33 @@
 
     </nav>
 
+    <!-- ¿Quienes somos? -->
+    <section id="somos">
+        <div class="container bg-dark border-pri text-white mt-5 mb-5 p-5">
+            <h1>¿Quienes somos?</h1>
+            <p>
+                Somos una taquería con más de 20 años de experiencia, ofreciendo los mejores tacos de la región.
+                <br>
+                Nuestros tacos son preparados con los mejores ingredientes y con el sazón que nos caracteriza.
+                <br>
+                Ven y disfruta de nuestros tacos, te aseguramos que no te arrepentirás.
+            </p>
+        </div>
+    </section>
+
+    <!--  Menu  -->
+    <section id="menu" class="container bg-dark border-pri text-white mt-5 mb-5 p-5">
+        <h1>Menú</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card bg-sec border-pri">
+                    <img src="resources/images/taco1.jpg" class="card-img-top" alt="Taco de pastor">
+                    <div class="card-body">
+                        <h5 class="card-title">Taco de pastor</h5>
+    </section>
+
     <!--  Direccion  -->
-    <section class="container bg-dark border-pri text-white mt-5 mb-5 p-5">
+    <section id="direccion" class="container bg-dark border-pri text-white mt-5 mb-5 p-5">
         <div class="text-center">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
@@ -173,7 +198,19 @@
 
     </section>
 
-    <!--  Menu  -->
+    <!-- Paquetes para eventos -->
+    <section id="paquetes">
+        <div class="container bg-dark border-pri text-white mt-5 mb-5 p-5">
+            <h1>Paquetes para eventos</h1>
+            <p>
+                ¿Tienes un evento y quieres que tus invitados disfruten de los mejores tacos?
+                <br>
+                ¡Nosotros te ayudamos! Contamos con paquetes especiales para eventos.
+                <br>
+                Contáctanos para más información.
+            </p>
+        </div>
+    </section>
 
     <!-- Contacto -->
     <footer class="bg-pri text-white">
