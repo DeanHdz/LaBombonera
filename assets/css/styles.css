@@ -10,42 +10,44 @@ body{
 }
 
 /* Color pallet */
-.primary{
+.bg-pri{
     background-color: #B60D14;
 }
 
-.primary-light{
+.bg-pri-l{
     background-color: #D60000
 }
 
-.primary-dark{
+.bg-pri-d{
     background-color: #871414;  
 }
 
-.primary-border{
+.border-pri{
     border: 3px solid;
     border-color: #B60D14;
 }
 
-.primary-dark-border{
+.border-pri-d{
     border: 3px solid;
     border-color: #871414;
 }
 
-.primary-light-border{
+.border-pri-l{
     border: 3px solid;
     border-color: #D60000;
 }
 
-.secondary{
+.bg-sec{
     background-color: #CFB111;
+}
+
+.border-sec{
+    border: 3px solid;
+    border-color: #CFB111;
 }
 
 /* individual styles */
 div#nav-logo-background-outer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
