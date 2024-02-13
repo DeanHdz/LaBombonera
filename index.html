@@ -151,11 +151,18 @@
                     <a class="nav-link active text-white" href="#paquetes">PAQUETES PARA EVENTOS</a>
                 </div>
 
-                <!-- Modal trigger button -->
+                <!-- Modal trigger button (Escritorio) -->
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modalId"
-                    class="btn bg-sec border-dark rounded-pill fw-bold p-1" data-toggle="modal"
-                    data-target="#myModal">AGENDA UN
-                    EVENTO
+                    class="btn bg-sec border-dark rounded-pill fw-bold d-none d-md-flex" data-toggle="modal"
+                    data-target="#myModal">
+                    <span>AGENDA UN EVENTO</span>
+                </button>
+
+                <!-- Modal trigger button (movil) -->
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modalId"
+                    class="btn bg-sec border-dark rounded-pill fw-bold p-1 d-flex d-md-none ms-auto" data-toggle="modal"
+                    data-target="#myModal">
+                    <span class="small">AGENDA UN EVENTO</span>
                 </button>
 
             </div>
