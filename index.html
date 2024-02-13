@@ -96,10 +96,44 @@
 
         <div class="bg-pri row pt-1 pb-1">
 
-            <div class="col-5 d-flex align-items-center justify-content-around">
-                <a class="nav-link active text-white" href="#menu">MENÚ</a>
-                <a class="nav-link active text-white" href="#direccion">DIRECCIÓN</a>
-                <a class="nav-link active text-white" href="#somos">SOBRE NOSOTROS</a>
+            <div class="col-5">
+
+                <!-- Vista escritorio-->
+                <div class="h-100 d-none d-lg-flex align-items-center justify-content-around">
+                    <a class="nav-link active text-white" href="#somos">SOBRE NOSOTROS</a>
+                    <a class="nav-link active text-white" href="#menu">MENÚ</a>
+                    <a class="nav-link active text-white" href="#direccion">DIRECCIÓN</a>
+                </div>
+
+                <!-- Vista móvil-->
+                <div class="d-flex d-lg-none align-items-center justify-content-center navbar">
+
+                    <!-- Hamburger menu icon -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navigation links -->
+                    <div class="collapse navbar-collapse d-lg-none" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#somos">SOBRE NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#menu">MENÚ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#direccion">DIRECCIÓN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#paquetes">PAQUETES PARA EVENTOS</a>
+                            </li>
+                            <!-- Add more links as needed -->
+                        </ul>
+                    </div>
+                </div>
+
             </div>
 
             <div class="col-2 d-flex align-items-center justify-content-center">
@@ -111,13 +145,19 @@
             </div>
 
             <div class="col-5 d-flex align-items-center justify-content-around">
-                <a class="nav-link active text-white" href="#paquetes">PAQUETES PARA EVENTOS</a>
+
+                <!-- Vista escritorio-->
+                <div class="d-none d-lg-flex">
+                    <a class="nav-link active text-white" href="#paquetes">PAQUETES PARA EVENTOS</a>
+                </div>
+
                 <!-- Modal trigger button -->
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modalId"
-                    class="btn bg-sec border-dark rounded-pill fw-bold" data-toggle="modal"
+                    class="btn bg-sec border-dark rounded-pill fw-bold p-1" data-toggle="modal"
                     data-target="#myModal">AGENDA UN
                     EVENTO
                 </button>
+
             </div>
 
         </div>
@@ -140,6 +180,7 @@
                     Ven y disfruta de nuestros tacos, te aseguramos que no te arrepentirás.
                 </p>
                 <div class="col text-center">
+                    <img src="resources/images/calificacion.png" alt="" class="img-fluid">
                     <p class="fst-italic">
                         Reseñas en
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25"
@@ -162,7 +203,6 @@
                         </svg>
                         Google Maps (27/Diciembre/2023)
                     </p>
-                    <img src="resources/images/calificacion.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -288,7 +328,7 @@
 
     <!-- Contacto -->
     <footer class="bg-pri text-white">
-        
+
         <div class="container-fluid p-4 row">
 
             <div class="col">
@@ -346,7 +386,13 @@
             </div>
 
             <div class="col">
-                <h2>Horario</h2>
+                <h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M13 11.6V8q0-.425-.288-.712T12 7q-.425 0-.712.288T11 8v3.975q0 .2.075.388t.225.337l3.3 3.3q.275.275.7.275T16 16q.275-.275.275-.7T16 14.6zM12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22" />
+                    </svg>
+                    Horario
+                </h2>
                 <p>Lunes a Sabado de 7:00pm a 11:00pm</p>
             </div>
 
@@ -363,7 +409,7 @@
                 </svg>
                 <small>DeanHdz</small>
             </div>
-            <small>Contacto: 
+            <small>Contacto:
                 <a href="https://github.com/DeanHdz">
                     github.com/DeanHdz
                 </a>
